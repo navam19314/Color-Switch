@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.triInCircleController">
+   <children>
+      <Group fx:id="grp1" layoutX="293.0" layoutY="175.0">
+         <children>
+            <Arc fx:id="arc3" fill="#1f93ff00" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="270.0" stroke="#ed2561" strokeWidth="15.0" />
+            <Arc fx:id="arc1" fill="#1f93ff01" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="90.0" stroke="#f0ce10" strokeWidth="15.0" />
+            <Arc fx:id="arc2" fill="#00a4bd00" length="90.0" radiusX="100.0" radiusY="100.0" stroke="#9808c4" strokeWidth="15.0" />
+            <Arc fx:id="arc4" fill="#1f93ff00" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="180.0" stroke="#1fc5d7" strokeWidth="15.0" />
+            <Group fx:id="grp2" layoutX="-34.0" layoutY="-56.0">
+               <children>
+                  <Line fx:id="triSide1" endX="115.0" endY="10.892892837524414" layoutX="-85.0" layoutY="-8.0" startX="52.0" startY="99.80000305175781" stroke="#27cbdd" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="triSide2" endX="-31.0" endY="84.80000305175781" layoutX="132.0" layoutY="6.0" startX="-100.29290771484375" startY="-3.814208984375" stroke="#a510ca" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="triSide3" endX="101.70709228515625" endY="7.5071258544921875" layoutX="-1.0" layoutY="83.0" startX="-32.70711135864258" startY="8.507125854492188" stroke="#dd3276" strokeLineCap="ROUND" strokeWidth="15.0" />
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Button fx:id="btn" layoutX="274.0" layoutY="320.0" mnemonicParsing="false" onAction="#play" text="Press" />
+   </children>
+</Pane>

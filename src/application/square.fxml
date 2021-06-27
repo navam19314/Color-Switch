@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sqController">
+   <children>
+      <Button fx:id="sqBtn" layoutX="274.0" layoutY="316.0" mnemonicParsing="false" onAction="#sqplay" text="Press" />
+      <Group fx:id="sqGp" layoutX="309.0" layoutY="175.0">
+         <children>
+            <Line fx:id="sqS3" endX="77.0" layoutX="3.0" layoutY="69.0" startX="-100.0" stroke="#fd3564" strokeWidth="15.0" />
+            <Line fx:id="sqS1" endX="80.0" endY="-7.62939453125E-6" layoutY="-121.0" startX="-100.0" stroke="#ffe014" strokeWidth="15.0" />
+            <Line fx:id="sqS4" endX="48.49998474121094" endY="123.5" layoutX="-156.0" layoutY="-54.0" startX="48.49998474121094" startY="-66.49999237060547" stroke="#19b2cd" strokeWidth="15.0" />
+            <Line fx:id="sqS2" endX="-14.5" endY="-113.49999237060547" layoutX="104.0" layoutY="-7.0" startX="-14.5" startY="76.5" stroke="#8f0b75" strokeWidth="15.0" />
+         </children>
+      </Group>
+   </children>
+</Pane>

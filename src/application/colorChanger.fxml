@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="clcBtn" layoutX="223.0" layoutY="272.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="108.0" text="PRESS">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <Group fx:id="clcGrp" layoutX="300.0" layoutY="153.0">
+            <children>
+                <Arc fx:id="arc2" fill="#19b2cdfc" layoutX="-23.0" length="90.0" radiusX="15.0" radiusY="15.0" startAngle="270.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeType="INSIDE" strokeWidth="15.0" type="ROUND" />
+                <Arc fx:id="arc3" fill="#fd3564fc" layoutX="-23.0" length="90.0" radiusX="15.0" radiusY="15.0" startAngle="180.0" stroke="#fd3564" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeType="INSIDE" strokeWidth="15.0" type="ROUND" />
+                <Arc fx:id="arc1" fill="#8f0b75" layoutX="-23.0" length="90.0" radiusX="15.0" radiusY="15.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeLineJoin="BEVEL" strokeType="INSIDE" strokeWidth="15.0" type="ROUND" />
+                <Arc fx:id="arc4" fill="#ffe014fa" layoutX="-23.0" length="90.0" radiusX="15.0" radiusY="15.0" startAngle="90.0" stroke="#ffe014" strokeType="INSIDE" strokeWidth="15.0" type="ROUND" />
+            </children>
+        </Group>
+    </children>
+</Pane>

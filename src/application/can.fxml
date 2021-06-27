@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.canController">
+    <children>
+        <Group fx:id="gp" layoutX="269.0" layoutY="184.0">
+            <children>
+                <Circle fill="#1f93ff00" radius="45.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                <ImageView fitHeight="77.0" fitWidth="79.0" layoutX="-24.0" layoutY="-45.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@can.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Group>
+        <Button fx:id="btn" layoutX="274.0" layoutY="316.0" mnemonicParsing="false" onAction="#move" text="Press" />
+    </children>
+</Pane>

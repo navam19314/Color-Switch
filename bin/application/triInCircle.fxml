@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Line?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.triInCircleController">
+   <children>
+      <Group fx:id="grp1" layoutX="293.0" layoutY="175.0">
+         <children>
+            <Arc fx:id="arc3" fill="#1f93ff00" length="90.0" radiusX="150.0" radiusY="150.0" startAngle="270.0" stroke="#fd3564" strokeWidth="15.0" />
+            <Arc fx:id="arc1" fill="#1f93ff01" length="90.0" radiusX="150.0" radiusY="150.0" startAngle="90.0" stroke="#19b2cd" strokeWidth="15.0" />
+            <Arc fx:id="arc2" fill="#00a4bd00" length="90.0" radiusX="150.0" radiusY="150.0" stroke="#8f0b75" strokeWidth="15.0" />
+            <Arc fx:id="arc4" fill="#1f93ff00" length="90.0" radiusX="150.0" radiusY="150.0" startAngle="180.0" stroke="#ffe014" strokeWidth="15.0" />
+            <Group fx:id="grp2" layoutX="11.0" layoutY="-61.0" rotate="250.0">
+               <children>
+                  <Line fx:id="triSide1" endX="94.38263702392578" endY="-23.866863250732422" layoutX="-85.0" layoutY="-8.0" startX="64.52381134033203" startY="120.21310424804688" stroke="#fd3564" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="triSide2" endX="-49.50746154785156" endY="67.66769409179688" layoutX="132.0" layoutY="6.0" startX="-121.15090942382812" startY="-37.582000732421875" stroke="#19b2cd" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="triSide3" endX="76.95237731933594" endY="-7.5506591796875" layoutX="-1.0" layoutY="83.0" startX="-13.355661392211914" startY="39.450927734375" stroke="#8f0b75" strokeLineCap="ROUND" strokeWidth="15.0" />
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Button fx:id="btn" layoutX="274.0" layoutY="320.0" mnemonicParsing="false" onAction="#play" text="Press" />
+   </children>
+</Pane>

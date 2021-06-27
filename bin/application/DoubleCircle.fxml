@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.doubleCircleController">
+   <children>
+      <Group fx:id="outerCircle" layoutX="237.0" layoutY="123.0">
+         <children>
+            <Arc fx:id="oa1" fill="#1f93ff02" layoutX="54.0" layoutY="41.0" length="90.0" radiusX="130.0" radiusY="131.0" stroke="#fd3564" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Arc fx:id="oa2" fill="#1f93ff00" layoutX="54.0" layoutY="42.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="270.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Arc fx:id="oa3" fill="#5d1fad00" layoutX="54.0" layoutY="42.0" length="90.0" radiusX="130.0" radiusY="131.0" startAngle="180.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Arc fx:id="oa4" fill="#f743b800" layoutX="54.0" layoutY="41.0" length="90.0" radiusX="130.0" radiusY="132.0" startAngle="90.0" stroke="#ffe014" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Group fx:id="innerCircle">
+               <children>
+                  <Arc fx:id="ia1" fill="#1f93ff02" layoutX="54.0" layoutY="41.0" length="90.0" radiusX="100.0" radiusY="100.0" stroke="#fd3564" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Arc fx:id="ia2" fill="#1f93ff00" layoutX="54.0" layoutY="42.0" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="270.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Arc fx:id="ia3" fill="#5d1fad00" layoutX="54.0" layoutY="42.0" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="180.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Arc fx:id="ia4" fill="#f743b800" layoutX="54.0" layoutY="41.0" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="90.0" stroke="#ffe014" strokeLineCap="BUTT" strokeWidth="15.0" />
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Button fx:id="btn" layoutX="274.0" layoutY="344.0" mnemonicParsing="false" onAction="#play" text="Press" />
+   </children>
+</Pane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.clcController">
+    <children>
+        <Button fx:id="clcBtn" layoutX="276.0" layoutY="285.0" mnemonicParsing="false" onAction="#circleplay" prefHeight="37.0" prefWidth="108.0" text="PRESS">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <Group fx:id="clcGrp" layoutX="425.0" layoutY="152.0">
+            <children>
+                <Arc fx:id="arc2" fill="#1f93ff02" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="270.0" stroke="#fd3564" strokeLineCap="BUTT" strokeWidth="15.0" />
+                <Arc fx:id="arc3" fill="#1f93ff02" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="180.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeWidth="15.0" />
+                <Arc fx:id="arc1" fill="#2197ff00" length="90.0" radiusX="100.0" radiusY="100.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeWidth="15.0" />
+                <Arc fx:id="arc4" fill="#1f93ff00" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="90.0" stroke="#ffe014" strokeLineCap="BUTT" strokeLineJoin="ROUND" strokeWidth="15.0" />
+            </children>
+        </Group>
+    </children>
+</Pane>

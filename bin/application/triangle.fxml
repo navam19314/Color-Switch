@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.triController">
+   <children>
+      <Group fx:id="triGrp" layoutX="288.0" layoutY="92.0">
+         <children>
+            <Line fx:id="ts3" endX="90.60000610351562" endY="-5.400001525878906" layoutX="-69.0" layoutY="-22.0" startX="-27.399993896484375" startY="192.8000030517578" stroke="#fd3564" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="ts2" endX="125.60000610351562" endY="-14.20001220703125" layoutX="19.0" layoutY="185.0" startX="-115.39999389648438" startY="-14.20001220703125" stroke="#19b2cd" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="ts1" endX="124.10000610351562" endY="175.79998779296875" fill="#d60d0d00" layoutX="28.0" layoutY="-5.0" startX="-6.399993896484375" startY="-22.199996948242188" stroke="#8f0b75" strokeLineCap="ROUND" strokeWidth="15.0" />
+         </children></Group>
+      <Button fx:id="triBtn" layoutX="294.0" layoutY="314.0" mnemonicParsing="false" onAction="#triplay" text="Press" />
+   </children>
+</Pane>

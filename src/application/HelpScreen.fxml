@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="48.0" prefHeight="31.0" prefWidth="385.0" text="1. Press ENTER to move the ball up." textFill="WHITE" />
+      <Label layoutX="43.0" layoutY="79.0" prefHeight="31.0" prefWidth="385.0" text="2. POINTS" textFill="WHITE" />
+      <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="113.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="123.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@can.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="123.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="166.0" layoutY="76.0" prefHeight="46.0" prefWidth="385.0" text="Collect STARS to increase your points" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="124.0" prefHeight="46.0" prefWidth="385.0" text="CANS help you go through the obstacles" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="177.0" prefHeight="46.0" prefWidth="476.0" text="3. Upon crashing with the obstacle you can either Quit or use your points earned to continue. " textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="223.0" prefHeight="31.0" prefWidth="465.0" text="4. Press spacebar to pause the game." textFill="WHITE" />
+      <Label layoutX="85.0" layoutY="254.0" prefHeight="17.0" prefWidth="249.0" text="Press S- Save Game" textFill="WHITE" />
+      <Label layoutX="85.0" layoutY="271.0" prefHeight="17.0" prefWidth="249.0" text="Press Q- Exit from window" textFill="WHITE" />
+      <Label layoutX="85.0" layoutY="288.0" prefHeight="17.0" prefWidth="249.0" text="Press L- Load Game" textFill="WHITE" />
+      <Label layoutX="85.0" layoutY="305.0" prefHeight="17.0" prefWidth="249.0" text="Press N- New Game" textFill="WHITE" />
+       <Label layoutX="85.0" layoutY="315.0" prefHeight="17.0" prefWidth="249.0" text=" Press q to exit this menu" textFill="WHITE" />
+      <Label layoutX="85.0" layoutY="14.0" prefHeight="31.0" prefWidth="77.0" text="HELP" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

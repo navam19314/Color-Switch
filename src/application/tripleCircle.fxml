@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tripleCircleController">
+   <children>
+      <Button fx:id="btn" layoutX="463.0" layoutY="300.0" mnemonicParsing="false" onAction="#play" text="Press" />
+      <Group fx:id="outerCircle" layoutX="226.0" layoutY="147.0">
+         <children>
+            <Arc fx:id="seconda1" fill="#1f93ff02" layoutX="54.0" layoutY="43.0" length="90.0" radiusX="100.0" radiusY="100.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Arc fx:id="seconda3" fill="#1f93ff02" layoutX="54.0" layoutY="44.0" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="270.0" stroke="#ffe014" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Arc fx:id="seconda2" fill="#1f93ff02" layoutX="54.0" layoutY="44.0" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="180.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Arc fx:id="seconda4" fill="#1f93ff03" layoutX="54.0" layoutY="43.0" length="90.0" radiusX="100.0" radiusY="100.0" startAngle="90.0" stroke="#fd3564" strokeLineCap="BUTT" strokeWidth="15.0" />
+            <Group fx:id="gp1" layoutX="1.0">
+               <children>
+                  <Arc fx:id="thirda1" fill="#1f93ff02" layoutX="54.0" layoutY="43.0" length="90.0" radiusX="125.0" radiusY="125.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Arc fx:id="thirda2" fill="#1f93ff02" layoutX="54.0" layoutY="44.0" length="90.0" radiusX="125.0" radiusY="125.0" startAngle="270.0" stroke="#ffe014" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Arc fx:id="thirda3" fill="#1f93ff02" layoutX="54.0" layoutY="44.0" length="90.0" radiusX="126.0" radiusY="126.0" startAngle="180.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Arc fx:id="thirda4" fill="#1f93ff03" layoutX="54.0" layoutY="43.0" length="90.0" radiusX="125.0" radiusY="125.0" startAngle="90.0" stroke="#fd3564" strokeLineCap="BUTT" strokeWidth="15.0" />
+                  <Group fx:id="gp3" layoutY="1.0">
+                     <children>
+                        <Arc fx:id="firsta1" fill="#1f93ff02" layoutX="54.0" layoutY="43.0" length="90.0" radiusX="74.0" radiusY="74.0" stroke="#19b2cd" strokeLineCap="BUTT" strokeWidth="15.0" />
+                        <Arc fx:id="firsta2" fill="#1f93ff02" layoutX="54.0" layoutY="44.0" length="90.0" radiusX="72.0" radiusY="72.0" startAngle="270.0" stroke="#ffe014" strokeLineCap="BUTT" strokeWidth="15.0" />
+                        <Arc fx:id="firsta3" fill="#1f93ff02" layoutX="54.0" layoutY="44.0" length="90.0" radiusX="73.0" radiusY="73.0" startAngle="180.0" stroke="#8f0b75" strokeLineCap="BUTT" strokeWidth="15.0" />
+                        <Arc fx:id="firsta4" fill="#1f93ff03" layoutX="54.0" layoutY="43.0" length="90.0" radiusX="74.0" radiusY="74.0" startAngle="90.0" stroke="#fd3564" strokeLineCap="BUTT" strokeWidth="15.0" />
+                     </children>
+                  </Group>
+               </children>
+            </Group>
+         </children>
+      </Group>
+   </children>
+</Pane>
